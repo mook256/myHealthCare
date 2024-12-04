@@ -1,0 +1,209 @@
+{
+  "common": {
+    "confirm": "ยืนยัน",
+    "cancel": "ยกเลิก",
+    "warning": "คำเตือน",
+    "alert": "แจ้งเตือน",
+    "signout": "ออกจากระบบ",
+    "no": "ไม่",
+    "yes": "ใช่",
+    "accept": "ยืนยัน",
+    "decline": "ปฏิเสธ",
+    "back": "ย้อนกลับ",
+    "close": "ปิด",
+    "clear": "ลบข้อมูล"
+  },
+  "healthForm": {
+    "bp": {
+      "name": "ความดันโลหิต",
+      "unit": "มิลลิลิตรปรอท"
+    },
+    "hr": {
+      "name": "อัตราการเต้นหัวใจ",
+      "unit": "ครั้งต่อนาที"
+    },
+    "weight": {
+      "name": "น้ำหนัก",
+      "unit": "กิโลกรัม"
+    },
+    "height": {
+      "name": "ส่วนสูง",
+      "unit": "เซนติเมตร"
+    },
+    "temp": {
+      "name": "อุณหภูมิ",
+      "unit": "องศาเซลเซียส"
+    },
+    "spo2": {
+      "name": "ออกซิเจนในเลือด",
+      "unit": "เปอร์เซ็นต์"
+    },
+    "spo2current": {
+      "name": "ขณะนี้"
+    },
+    "spo2before": {
+      "name": "ก่อน"
+    },
+    "spo2after": {
+      "name": "หลัง"
+    },
+    "bgc": {
+      "name": "ระดับน้ำตาลในเลือด",
+      "unit": "มิลลิกรัมต่อเดซิลิตร"
+    },
+    "resp": {
+      "name": "อัตราการหายใจ",
+      "unit": "ครั้งต่อนาที"
+    }
+  },
+  "homeScreen": {
+    "emergencyNurseHeader": "วิดีโอคอลกรณีฉุกเฉิน",
+    "emergencyNurseContent": "ต้องการการติดต่อพยาบาลกรณีฉุกเฉินใช่หรือไม่"
+   
+  },
+  "cardIdloginScreen": {
+    "formPlaceHolder": "กรุณาใส่เลขบัตรประจำตัวประชาชน (13 หลัก) หรือหมายเลข HN",
+    "formError": "เลขบัตรประจำตัวประชาชนไม่ถูกต้องหรือไม่อยู่ในระบบ",
+    "formText": "กรอกหมายเลข",
+    "formTextBold": " ประจำตัวประชาชน 13 หลัก",
+    "formTextInvalid":"กรอกเลขบัตรไม่ถูกต้อง หรือ HN ID ไม่ถูกต้อง ",
+    "register":"ลงทะเบียน",
+    "login":"เข้าสู่ระบบ",
+    "messageLogin":"กรุณาล็อกอินก่อนเข้าใช้งาน",
+    "note":"หมายเหตุ",
+    "noteMessage":"หากเป็นการใช้งานครั้งแรกกรุณาลงทะเบียน เพื่อยืนยันตัวตนก่อนเข้าใช้งาน"
+  },
+  "RegisterIDcard":{
+    "textscanqrcode":"สแกน qr code เพื่อลงทะเบียนใช้งาน",
+    "messageRegisterIDHeader":"เลขบัตรประชาชนของคุณไม่ถูกต้อง หรือ คุณยังไม่สมัครบัญชีใช้งาน",
+    "messageRegisterIDContent":"คุณต้องการที่จะสมัครบัญชีหรือไม"
+  },
+  "userLoginScreen": {
+    "header": "กรุณากดที่รูปภาพเพื่อเข้าใช้งาน"
+  },
+  "licenseScreen": {
+    "header": "ข้อตกลงการใช้งาน"
+  },
+  "mainScreen": {
+    "sendDataBtn": "ส่งข้อมูล",
+    "sendDataFail": "ส่งข้อมูลไม่ถูกต้อง กรุณาส่งข้อมูลใหม่",
+    "noInternetConnection": "ไม่สามารถส่งข้อมูลได้เนื่องจากไม่สามารถเชื่อมต่ออินเตอร์เน็ตได้",
+    "sendDataSuccess": "บันทึกค่าสำเร็จ ต้องการทำรายการอื่นต่อหรือไม่",
+    "confirmResetDataHeader": "ลบข้อมูล",
+    "confirmResetDataConfirm": "คุณต้องการลบข้อมูล `{{ fieldName }}` หรือไม่?"
+  },
+  "webscreen":{
+    "Alert":"อัปโหลดสำเร็จ"
+  },
+  "preteleScreen": {
+    "nextbtnFail": "กรุณาบันทึกข้อมูลสุขภาพก่อนเข้ารับการปรึกษาจากแพทย์"
+  },
+  "teleBookingScreen": {
+    "header": "กรุณาเลือกแพทย์เพื่อทำการจอง"
+  },
+  "images": {
+    "homePage": "homePage_th",
+    "loginPage": "loginPage_th",
+    "cameraPage": "cameraPage_th",
+    "mainPage1": "mainPage1_th",
+    "mainPage2": "mainPage2_th",
+    "pretelePage": "pretelePage_th",
+    "telePage": "telePage_th",
+    "covidHealthPage": "covidHealthPage_th",
+    "covidMentalPage": "covidMentalPage_th",
+    "teleBookingPage": "teleBookingPage_th",
+    "healthAnalyticPage": "healthAnalyticPage_th",
+    "adlPage": "adlPage_th",
+    "eldHPage": "eldHPage_th",
+    "caregiverPage": "caregiverPage_th",
+    "cameraAdPage": "cameraAdPage_th",
+    "esasPage": "esasPage_th",
+    "facePage": "facePage_th",
+    "ppsPage": "ppsPage_th",
+    "posPage": "posPage_th"
+
+  },
+  "buttons": {
+    "lang": "lang_th",
+    "nurse": "nurse_th",
+    "help": "help_th",
+    "qrcode1": "qrcode1_th",
+    "qrcode2": "qrcode2_th",
+    "idcard1": "idcard1_th",
+    "idcard2": "idcard2_th",
+    "login": "login_th",
+    "emergency": "sos",
+    "idcard3": "กรอกเลขบัตรประชาชน",
+    "here": "กดที่นี่",
+    "qrcode3":"สแกน QR Code",
+    "cameratypefront":"กล้องหน้า",
+    "cameratypeback":"กล้องหลัง",
+    "loginText": "เข้าสู่ระบบ" ,
+    "regisCardidQR":"สแกน QR Code",
+    "regisCardid":"สมัครบัญชี",
+    "messageErrorIDCard":"เลขบัตรประจำตัวประชาชนไม่ถูกต้องหรือไม่อยู่ในระบบ"
+  },
+  "addCovidHealth": {
+    "strain": "ความเครียด",
+	  "cough": "อาการไอ",
+	  "tireness": "อาการเหนื่อย/ หอบเหนื่อย",
+	  "chestTightness": "อาการเจ็บแน่นหน้าอก",
+	  "fever": "อาการไข้",
+	  "eating": "ความสามารถในการรับประทานอาหาร", 
+	  "sleeping": "การนอนหลับ",
+	  "soreThroat": "อาการเจ็บคอ",
+	  "runnyNose": "อาการมีน้ำมูก",
+	  "bodyAches": "อาการปวดเมื่อยตามตัว",
+	  "intestine": "อาการทางลำไส้ เช่น ท้องเสีย",
+	  "smell": "อาการจมูกไม่ได้รับกลิ่น",
+	  "taste": "ลิ้นไม่ได้รับรส",
+	  "rash": "ผื่นขึ้นตามตัว",
+	  "conjunctivitis": "อาการตาแดง",
+	  "faint": "อาการหน้ามืด"
+  },
+  "mentalHealth": {
+    "mental_score_1_3": "3 = เกือบทุกวัน",
+    "mental_score_1_2": "2 = เกินกว่า 7 วันใน 2 สัปดาห์",
+    "mental_score_1_1": "1 = บางวัน",
+    "mental_score_1_0": "0 = ไม่มีเลย",
+  
+    "mental_question_1": "ในช่วง 2 อาทิตย์ที่ผ่านมา หรือระหว่างท่านเจ็บป่วยด้วยโรค COVID-19 ท่านถูกรบกวนด้วยปัญหาต่อไปนี้บ่อยเพียงใด",
+    "mental_tense": "1. รู้สึกตึงเครียด วิตกกังวล หรือ กระวนกระวาย",
+    "mental_control_anxiety": "2. ไม่สามารถหยุดหรือควบคุมความกังวลได้",
+    "mental_worrying_too_much": "3. กังวลมากเกินไปในเรื่องต่าง ๆ",
+    "mental_difficult_to_relax": "4. ทำตัวให้ผ่อนคลายได้ยาก",
+    "mental_feeling_restless": "5. รู้สึกกระสับกระส่ายจนไม่สามารถนั่งนิ่ง ๆ ได้",
+    "mental_easily_irritated": "6. กลายเป็นคนขี้รำคาญ หรือ หงุดหงิดง่าย",
+    "mental_feeling_afraid": "7. รู้สึกกลัวเหมือนว่าจะมีเหตุการณ์ร้าย ๆ เกิดขึ้น",
+  
+    "mental_question_2": "ถ้าท่านมีปัญหาข้อใดข้อหนึ่ง จากข้อที่ 1-7 ข้างต้น ปัญหาเหล่านี้ทำให้ท่านลำบากมากน้อยเพียงใดในการทำงาน การดูแลสิ่งต่างๆภายในบ้าน หรือการเข้ากับผู้อื่น",
+    "mental_score_2_3": "3=ลำบากมากที่สุด",
+    "mental_score_2_2": "2=ลำบากมาก",
+    "mental_score_2_1": "1=ลำบากบ้าง",
+    "mental_score_2_0": "0=ไม่ลำบากเลย",
+  
+    "mental_question_3": "ในช่วง 2 สัปดาห์ ที่ผ่านมา ท่านมีอาการดังต่อไปนี้บ่อยแค่ไหน",
+    "mental_score_3_3": "3=ลำบากมากที่สุด",
+    "mental_score_3_2": "2=ลำบากมาก",
+    "mental_score_3_1": "1=ลำบากบ้าง",
+    "mental_score_3_0": "0=ไม่ลำบากเลย",
+  
+    "mental_bored": "1. เบื่อ ทําอะไร ๆ ก็ไม่เพลิดเพลิน",
+    "mental_uneasy": "2. ไม่สบายใจ ซึมเศร้า หรือท้อแท้",
+    "mental_sleep": "3. หลับยาก หรือหลับๆ ตื่นๆ หรือหลับมากไป",
+    "mental_tired": "4. เหนื่อยง่าย หรือไม่ค่อยมีแรง",
+    "mental_anorexia": "5. เบื่ออาหาร หรือกินมากเกินไป",
+    "mental_failed": "6. รู้สึกไม่ดีกับตัวเอง–คิดว่าตัวเองล้มเหลว หรือเป็นคนทําให้ ตัวเองหรือครอบครัวผิดหวัง",
+    "mental_concentration":"7. สมาธิไม่ดีเวลาทําอะไร เช่น ดูโทรทัศน์ ฟังวิทยุ หรือทํางานที่ต้องใช้ความตั้งใจ",
+    "mental_act_slowly": "8. พูดหรือทําอะไรช้าจนคนอื่นมองเห็น หรือกระสับกระส่าย จนท่านอยู่ไม่นิ่งเมือนเคย",
+    "mental_self_harm": "9. คิดทําร้ายตนเอง หรือคิดว่าถ้าตายๆ ไปเสียคงจะดี"
+  },
+  "sos": {
+    "sending": "กำลังส่งข้อมูลฉุกเฉิน...",
+    "sendSuccess": "ส่งข้อมูลฉุกเฉินสำเร็จ",
+    "sendFail": "ส่งข้อมูลฉุกเฉินล้มเหลว",
+    "sendRetry": "ส่งข้อมูลอีกครั้ง",
+    "call": "โทรฉุกเฉิน"
+  }
+  
+}

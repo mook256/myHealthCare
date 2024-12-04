@@ -1,0 +1,208 @@
+{
+  "common": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "warning": "Warning",
+    "alert": "Alert",
+    "signout": "Sign Out",
+    "no": "No",
+    "yes": "Yes",
+    "accept": "Accept",
+    "decline": "Decline",
+    "back": "Back",
+    "close": "Close",
+    "clear": "Clear input"
+  },
+  "healthForm": {
+    "bp": {
+      "name": "Blood Pressure",
+      "unit": "mmHg."
+    },
+    "hr": {
+      "name": "Heart rate",
+      "unit": "bpm"
+    },
+    "weight": {
+      "name": "Weight",
+      "unit": "kg."
+    },
+    "height": {
+      "name": "Height",
+      "unit": "cm."
+    },
+    "temp": {
+      "name": "Temperature",
+      "unit": "°C"
+    },
+    "spo2": {
+      "name": "Oxygen Saturation",
+      "unit": "percent"
+    },
+    "spo2current": {
+      "name": "current"
+    },
+    "spo2before": {
+      "name": "before"
+    },
+    "spo2after": {
+      "name": "after"
+    },
+    "bgc": {
+      "name": "Blood Glucose",
+      "unit": "mg/dl"
+    },
+    "resp": {
+      "name": "Respiratory rate",
+      "unit": "bpm"
+    }
+  },
+  "homeScreen": {
+    "emergencyNurseHeader": "Emergency Video call",
+    "emergencyNurseContent": "Do you want to contact emergency nurse via video call?"
+ 
+  },
+  "cardIdloginScreen": {
+    "formPlaceHolder": "Enter your national ID number (13 digits) or HN number",
+    "formError": "Invalid national ID number",
+    "formText": "Enter your",
+    "formTextBold": " national ID number",
+    "formTextInvalid":"Invalid ID Card or Invalid HN ID",
+    "register":"Login",
+    "login":"Register",
+    "messageLogin":"Please login before access this app",
+    "note":"Note",
+    "noteMessage":"If it is first time to use, please register before logging in to confirm your identity."
+  },
+  "RegisterIDcard":{
+    "textscanqrcode":"scan qr code to register",
+    "messageRegisterIDHeader":"Your ID card number is incorrect or you haven't registered for an account.",
+    "messageRegisterIDContent":"Do you want to create an account or not?"
+  },
+  "userLoginScreen": {
+    "header": "Please select account."
+  },
+  "licenseScreen": {
+    "header": "License Agreement"
+  },
+  "mainScreen": {
+    "sendDataBtn": "Send Data",
+    "sendDataFail": "Send data failed, please resend it.",
+    "noInternetConnection": "Can't send data due internet connection.",
+    "sendDataSuccess": "Send data success. Would you like to continue?",
+    "confirmResetDataHeader": "Reset data",
+    "confirmResetDataConfirm": "Do you want to reset `{{ fieldName }}` fields?"
+
+  },
+  "webscreen":{
+    "Alert":"Upload success"
+  },
+  "preteleScreen": {
+    "nextbtnFail": "Please send your health data before consult with doctor."
+  },
+  "teleBookingScreen": {
+    "header": "Please select doctor for booking."
+  },
+  "images": {
+    "homePage": "homePage_en",
+    "loginPage": "loginPage_en",
+    "cameraPage": "cameraPage_en",
+    "mainPage1": "mainPage1_en",
+    "mainPage2": "mainPage2_en",
+    "pretelePage": "pretelePage_en",
+    "telePage": "telePage_en",
+    "covidHealthPage": "covidHealthPage_en",
+    "covidMentalPage": "covidMentalPage_en",
+    "teleBookingPage": "teleBookingPage_en",
+    "healthAnalyticPage": "healthAnalyticPage_en",
+    "adlPage": "adlPage_en",
+    "eldHPage": "eldHPage_en",
+    "caregiverPage": "caregiverPage_en",
+    "cameraAdPage": "cameraAdPage_en",
+    "esasPage": "esasPage_en",
+    "facePage": "facePage_en",
+    "ppsPage": "ppsPage_en",
+    "posPage": "posPage_en"
+
+  },
+  "buttons": {
+    "lang": "lang_en",
+    "nurse": "nurse_en",
+    "help": "help_en",
+    "qrcode1": "qrcode1_en",
+    "qrcode2": "qrcode2_en",
+    "idcard1": "idcard1_en",
+    "idcard2": "idcard2_en",
+    "login": "login_en",
+    "emergency": "sos",
+    "idcard3": "Enter your ID Card",
+    "here": "HERE",
+    "qrcode3": "Scan QR Code",
+    "cameratypefront":"Camera Front",
+    "cameratypeback":"Camera Back",
+    "loginText": "Login" ,
+    "regisCardidQR":"Scan QR Code",
+    "regisCardid":"Register"
+  },
+  "addCovidHealth": {
+    "strain": "Strain",
+	  "cough": "Cough",
+	  "tireness": "Tireness",
+	  "chestTightness": "Chest Tightness",
+	  "fever": "Fever",
+	  "eating": "Eating Ability", 
+	  "sleeping": "Sleeping",
+	  "soreThroat": "Sore Throat",
+	  "runnyNose": "Runny Nose",
+	  "bodyAches": "Body Aches",
+	  "intestine": "Intestine",
+	  "smell": "Smell",
+	  "taste": "Taste",
+	  "rash": "Rash",
+	  "conjunctivitis": "Conjunctivitis",
+	  "faint": "Faint"
+  },
+  "mentalHealth": {
+	"mental_score_1_3": "3 = almost every day",
+	"mental_score_1_2": "2 = more than 7 days in 2 weeks",
+	"mental_score_1_1": "1 = some days",
+	"mental_score_1_0": "0 = none",
+
+	"mental_question_1": "In the last 2 weeks or during your illness with COVID-19, how often have you been bothered by the following problems?",
+	"mental_tense": "1. feeling tense, anxious, or agitated",
+	"mental_control_anxiety": "2. inability to stop or control anxiety",
+	"mental_worrying_too_much": "3. worrying too much about things",
+	"mental_difficult_to_relax": "4. difficult to relax",
+	"mental_feeling_restless": "5. feeling restless and unable to sit still",
+	"mental_easily_irritated": "6. become irritable or easily irritated",
+	"mental_feeling_afraid": "7. feeling afraid as if something bad is going to happen",
+
+	"mental_question_2": "If you have any of the problems from items 1-7 above, how difficult are these problems for you to work? Taking care of things in the house or getting along with others",
+	"mental_score_2_3": "3=the most difficult",
+	"mental_score_2_2": "2=very difficult",
+	"mental_score_2_1": "1=some difficulty",
+	"mental_score_2_0": "0=not difficult at all",
+
+	"mental_question_3": "During the past 2 weeks, how often have you had the following symptoms?",
+	"mental_score_3_3": "3=almost every day",
+	"mental_score_3_2": "2=more than 7 days in 2 weeks",
+	"mental_score_3_1": "1=some days",
+	"mental_score_3_0": "0=none",
+
+	"mental_bored": "1. bored to do anything just don't enjoy",
+	"mental_uneasy": "2. uneasy, depressed, or discouraged",
+	"mental_sleep": "3. difficulty falling asleep or staying awake or sleeping too much",
+	"mental_tired": "4. tired easily or with little energy",
+	"mental_anorexia": "5. anorexia or overeating",
+	"mental_failed": "6. feeling bad about yourself – thinking you've failed. or the person who made yourself or your family disappointed",
+	"mental_concentration":"7. poor concentration when doing things such as watching television, listening to the radio, or doing tasks that require concentration",
+	"mental_act_slowly": "8. speak or act slowly until others see or restless until you remain motionless",
+	"mental_self_harm": "9. self-harm Or do you think it would be good if you died"
+  },
+  "sos": {
+    "sending": "Sending SOS...",
+    "sendSuccess": "Sending SOS success",
+    "sendFail": "Sending SOS Failure",
+    "sendRetry": "Send again",
+    "call": "Emergency call"
+  }
+}
